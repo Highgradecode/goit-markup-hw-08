@@ -1,0 +1,132 @@
+.projects-container__title {
+	display: none;
+}
+
+.card-examples__title {
+	color: $second-text-color;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	margin-bottom: 4px;
+}
+
+.card-examples__text {
+	font-size: 16px;
+	line-height: 1.9;
+	letter-spacing: 0.03em;
+}
+.projects-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.projects-list__item {
+	margin-right: 8px;
+	&:last-child {
+		margin-right: 0px;
+	}
+}
+
+.about-list {
+	outline: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -30px;
+	margin-top: -30px;
+	>.about-list__item {
+		margin-left: 30px;
+		margin-top: 30px;
+	}
+}
+
+.card-projects__img-style {
+	display: block;
+}
+
+.card-examples {
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 1px solid $card-set-color;
+	border-top: none;
+}
+
+.card-projects {
+	transition-property: box-shadow;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	&:hover {
+		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+	}
+}
+
+.card-projects.pointer {
+	cursor: pointer;
+}
+
+.card-projects__image {
+	position: relative;
+	overflow: hidden;
+}
+
+.card-projects__text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.03em;
+	color: $white-color;
+	padding: 63px 24px;
+	background-color: rgba(33, 150, 243, 0.9);
+	height: 100%;
+	transform: translateY(100%);
+	transition-property: transform;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	overflow: auto;
+}
+
+.about-list__item {
+	&:hover {
+		.card-projects__text {
+			transform: translateY(0);
+		}
+	}
+}
+
+.projects-list__button {
+	color: $second-button-color;
+	background-color: $second-background-color;
+	border: 0;
+	font-family: inherit;
+	display: inline-block;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
+	text-align: center;
+	letter-spacing: 0.03em;
+	height: 38px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 22px;
+	padding-right: 22px;
+	border-radius: 4px;
+	transition-property: $first-button-color, $accent-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	.pointer {
+		cursor: pointer;
+	}
+	&:hover {
+		color: $first-button-color;
+		background-color: $accent-color;
+		box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	}
+	&:focus {
+		outline: none;
+	}
+}

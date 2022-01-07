@@ -1,0 +1,78 @@
+$main-background-color: #FFFFFF;
+$second-background-color: #F5F4FA;
+$hero-color: #2F303A;
+$footer-color: #2F303A;
+$main-title-color: #FFFFFF;
+$second-title-color: #212121;
+$black-color: #000000;
+$white-color: #FFFFFF;
+$first-text-color: #757575;    
+$second-text-color: #212121;
+$first-button-color: #FFFFFF;
+$second-button-color: #212121;
+$header-text-color: #212121;
+$accent-color: #2196F3;
+$card-set-color: #EEEEEE;
+$first-icon-color: #AFB1B8;
+$second-icon-color: #FFFFFF;
+
+
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-bottom: 0px;
+}
+ 
+body {
+    background-color: $main-background-color;
+    color: $first-text-color;
+                                       
+    font-family: 'Roboto', sans-serif;
+}
+ 
+.list {
+    list-style: none;
+}
+
+.section-title {
+   color: $second-title-color;
+   font-size: 36px;
+   line-height: 1.2;
+   text-align: center;
+   letter-spacing: 0.03em;
+   margin-bottom: 50px;
+}
+
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}

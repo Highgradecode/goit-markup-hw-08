@@ -1,0 +1,132 @@
+.header-container__logo-word1 {
+	color: $accent-color;
+	text-decoration: none;
+	font-family: Raleway;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+}
+
+.header-container__logo-word2 {
+	color: $black-color;
+	text-decoration: none;
+	font-family: Raleway;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	margin-right: 93px;
+}
+
+.header {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #ECECEC;
+}
+
+.header-container__menu {
+	display: flex;
+}
+
+.site-nav {
+	display: flex;
+	align-items: center;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+}
+
+.site-nav__item:not(:last-child) {
+	margin-right: 50px;
+}
+
+.site-nav__link {
+	color: $header-text-color;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	position: relative;
+	transition-property: $accent-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	&:hover {
+		color: $accent-color;
+	}
+	&:focus {
+		color: $accent-color;
+	}
+}
+
+.site-nav__link_current {
+	color: $accent-color;
+	text-decoration: none;
+	position: relative;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	&::after {
+		content: '';
+		width: 100%;
+		height: 4px;
+		background-color: $accent-color;
+		border-radius: 2px;
+		position: absolute;
+		left: 0;
+		bottom: -34px;
+	}
+}
+.header-container__connect {
+	margin-left: auto;
+}
+
+.contact-list {
+	display: flex;
+}
+
+.contact-list__item:not(:last-child) {
+	margin-right: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.contact-list__link {
+	display: block;
+	color: $first-text-color;
+	text-decoration: none;
+	list-style: none;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	transition-property: $accent-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	&:hover {
+		color: $accent-color;
+	}
+	&:focus {
+		color: $accent-color;
+	}
+}
+
+.contact-list__icon {
+	vertical-align: text-top;
+	fill: currentColor;
+	margin-right: 10px;
+	&:hover {
+		fill: currentColor;
+	}
+	&:focus {
+		fill: currentColor;
+	}
+}
+
+
+
+
+
+
