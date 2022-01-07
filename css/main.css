@@ -457,7 +457,7 @@ body {
 }
 
 @media screen and (max-width: 1999px) {
-  .team-list__item:not(:last-child) {
+  .team-list__item :not(:last-child) {
     margin-right: 30px;
   }
 }
