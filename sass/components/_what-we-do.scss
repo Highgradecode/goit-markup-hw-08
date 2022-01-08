@@ -1,12 +1,18 @@
 .what-we-do-section {
-	padding-top: 0px;
-	padding-bottom: 94px;
-	margin-bottom: 0px;
+	@media screen and (min-width: 1200px) {
+		padding-top: 0px;
+	}
+	
+	@media screen and (max-width: 1199px) {
+		display: none;
+	}
 }
+
 .we-do-list {
 	display: flex;
 	align-items: center;
 }
+
 .we-do-list__item {
 	margin-right: 30px;
 	position: relative;
@@ -14,6 +20,7 @@
 		margin-right: 30px;
 	}
 }
+
 .we-do-list__text {
 	position: absolute;
 	top: 0;
