@@ -56,10 +56,9 @@ image {
 }
 
 .section {
-   
-        padding-top: 60px;
-        padding-bottom: 60px;
-        margin-bottom: 0px;
+   padding-top: 60px;
+   padding-bottom: 60px;
+   margin-bottom: 0px;
     
    
     @media screen and (min-width: 768px) {
@@ -86,10 +85,9 @@ body {
 }
 
 .section-title {
-   color: $second-title-color;
-   text-align: center;
-   
-   
+       color: $second-title-color;
+       text-align: center;
+
         font-size: 28px;
         line-height: 33px;
         letter-spacing: 0.03em;
