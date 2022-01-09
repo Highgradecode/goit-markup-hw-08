@@ -82,15 +82,10 @@ body {
 .section-title {
   color: #212121;
   text-align: center;
-}
-
-@media screen and (min-width: 480px) {
-  .section-title {
-    font-size: 28px;
-    line-height: 33px;
-    letter-spacing: 0.03em;
-    margin-bottom: 30px;
-  }
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
