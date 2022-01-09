@@ -45,12 +45,10 @@ image {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin-bottom: 0px;
-  }
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 0px;
 }
 
 @media screen and (min-width: 768px) {
