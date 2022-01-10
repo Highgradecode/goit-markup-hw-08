@@ -127,24 +127,45 @@
                 <h2 class="we-do-container__title section-title">Чем мы занимаемся</h2>
                 <ul class="we-do-list list">
                     <li class="we-do-list__item">
-                        <a href=""><img src="./images/картинка1.jpg" alt="Процесс верстки
-" width="370" height="294"></a>
+                        <a href="">
+                            <img 
+                            srcset="./images/box1-desktop.jpg 1x, ./images/box2@2x-desktop.jpg 2x" 
+                            src="./images/box1-desktop.jpg" 
+                            alt="Процесс верстки"
+                            width="370"
+                            height="294" 
+                            />
+                        </a>
                         <p class="we-do-list__text">
                             Десктопные приложения
                         </p>
                     </li>
 
                     <li class="we-do-list__item">
-                        <a href=""><img src="./images/картинка2.jpg" alt="Адаптивный дизайн
-" width="370" height="294"></a>
+                        <a href="">
+                            <img 
+                            srcset="./images/box2-desktop.jpg 1x, ./images/box2@2x-desktop.jpg 2x" 
+                            src="./images/box2-desktop.jpg"
+                            alt="Адаптивный дизайн" 
+                            width="370"
+                            height="294" 
+                            />
+                        </a>
                         <p class="we-do-list__text">
                             Мобильные приложения
                         </p>
                     </li>
 
                     <li class="we-do-list__item">
-                        <a href=""><img src="./images/картинка3.jpg" alt="Удачное сочетание цветов
-" width="370" height="294"></a>
+                        <a href="">
+                            <img 
+                            srcset="./images/box3-desktop.jpg 1x, ./images/box3@2x-desktop.jpg 2x" 
+                            src="./images/box3-desktop.jpg"
+                            alt="Удачное сочетание цветов" 
+                            width="370"
+                            height="294" 
+                            />
+                        </a>                       
                         <p class="we-do-list__text">
                             Дизайнерские решения
                         </p>
@@ -160,25 +181,27 @@
                         <article class="card-team">
                             <div class="card-team__image">
                                 <a href="">
-                                    <!-- 
+                                    <picture>
+                                        <source 
+                                        srcset="./images/img-desktop.jpg 1x, ./images/img@2x-desktop.jpg 2x" 
+                                        media="(min-width:1200px)" 
+                                        />
 
-                                    <img class="images" src="./images/team-img-igor@3x.jpg" alt="Игорь Демьяненко" /> 
-                                        
-                                    <source srcset="
-                                                        ./images/team-img-igor-m.jpg    1x,
-                                                        ./images/team-img-igor-m@2x.jpg 2x
-                                                      " media="(max-width: 767px)" />
-                                    <source srcset="
-                                                        ./images/team-img-igor-t.jpg    1x,
-                                                        ./images/team-img-igor-t@2x.jpg 2x
-                                                      " media="(max-width: 1199px)" />
-                                    
-                                    
-                                -->
-                                    
-                                    <img src="./images/ИгорьДемьяненко.jpg" alt="Игорь Демьяненко" width="270"
-                                        height="260" class="card-team__image_style">
-                                
+                                        <source 
+                                        srcset="./images/img-tablet.jpg 1x, ./images/img@2x-tablet.jpg 2x" 
+                                        media="(min-width:768px)" 
+                                        />
+
+                                        <source srcset="./images/img-mobile.jpg 1x, ./images/img@2x-mobile.jpg 2x" 
+                                        media="(min-width:320px)" 
+                                        />
+                
+                                        <img 
+                                        src="./images/img-desktop.jpg" 
+                                        alt="Игорь Демьяненко" 
+                                        class="card-team__image_style"/>
+
+                                    </picture>
                                 </a>
                             </div>
                             <div class="card-team-content">
@@ -221,8 +244,29 @@
                     <li class="team-list__item">
                         <article class="card-team">
                             <div class="card-team__image">
-                                <a href=""><img src="./images/ОльгаРепина.jpg" alt="Ольга Репина" width="270"
-                                        height="260" class="card-team__image_style"></a>
+                                <a href="">
+                                    <picture>
+                                        <source 
+                                        srcset="./images/img2-desktop.jpg 1x, ./images/img2@2x-desktop.jpg 2x" 
+                                        media="(min-width:1200px)" 
+                                        />
+                                
+                                        <source 
+                                        srcset="./images/img2-tablet.jpg 1x, ./images/img2@2x-tablet.jpg 2x" 
+                                        media="(min-width:768px)" 
+                                        />
+                                
+                                        <source 
+                                        srcset="./images/img2-mobile.jpg 1x, ./images/img2@2x-mobile.jpg 2x" 
+                                        media="(min-width:320px)" 
+                                        />
+                                
+                                        <img src="./images/img2-desktop.jpg" 
+                                        alt="Ольга Репина" 
+                                        class="card-team__image_style"/>
+                                
+                                    </picture>
+                                </a>
                             </div>
                             <div class="card-team-content">
                                 <h3 class="card-team-content__title">Ольга Репина</h3>
@@ -264,8 +308,27 @@
                     <li class="team-list__item">
                         <article class="card-team">
                             <div class="card-team__image">
-                                <a href=""><img src="./images/НиколайТарасов.jpg" alt="Николай Тарасов" width="270"
-                                        height="260" class="card-team__image_style"></a>
+                                <a href="">
+                                    <picture>
+                                        <source 
+                                        srcset="./images/img3-desktop.jpg 1x, ./images/img3@2x-desktop.jpg 2x" 
+                                        media="(min-width:1200px)" />
+                                
+                                        <source 
+                                        srcset="./images/img3-tablet.jpg 1x, ./images/img3@2x-tablet.jpg 2x" 
+                                        media="(min-width:768px)" />
+                                
+                                        <source 
+                                        srcset="./images/img3-mobile.jpg 1x, ./images/img3@2x-mobile.jpg 2x" 
+                                        media="(min-width:320px)" />
+                                
+                                        <img 
+                                        src="./images/img3-desktop.jpg" 
+                                        alt="Николай Тарасов" 
+                                        class="card-team__image_style" />
+                                
+                                    </picture>
+                                </a>
                             </div>
                             <div class="card-team-content">
                                 <h3 class="card-team-content__title">Николай Тарасов</h3>
@@ -307,8 +370,27 @@
                     <li class="team-list__item">
                         <article class="card-team">
                             <div class="card-team__image">
-                                <a href=""><img src="./images/МихаилЕрмаков.jpg" alt="Михаил Ермаков" width="270"
-                                        height="260" class="card-team__image_style"></a>
+                                <a href="">
+                                    <picture>
+                                        <source 
+                                        srcset="./images/img4-desktop.jpg 1x, ./images/img4@2x.jpg 2x" 
+                                        media="(min-width:1200px)" />
+                                
+                                        <source 
+                                        srcset="./images/img4-tablet.jpg 1x, ./images/img4@2x-tablet.jpg 2x" 
+                                        media="(min-width:768px)" />
+                                
+                                        <source 
+                                        srcset="./images/img4-mobile.jpg 1x, ./images/img4@2x-mobile.jpg 2x" 
+                                        media="(min-width:320px)" />
+                                
+                                        <img 
+                                        src="./images/img4-desktop.jpg" 
+                                        alt="Михаил Ермаков" 
+                                        class="card-team__image_style" />
+                                
+                                    </picture>
+                                </a>
                             </div>
                             <div class="card-team-content">
                                 <h3 class="card-team-content__title">Михаил Ермаков</h3>
