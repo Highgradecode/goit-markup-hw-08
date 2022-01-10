@@ -13,7 +13,7 @@ ul {
   padding: 0;
 }
 
-image {
+img {
   width: 100%;
   display: block;
   max-width: 100%;
@@ -253,10 +253,10 @@ body {
   max-width: 480px;
   margin-right: auto;
   margin-left: auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background img.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/");
 }
 
 @media screen and (min-width: 768px) {
@@ -570,9 +570,6 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/*.section-customers {
-	height: 372px;
-}*/
 .customers-list {
   display: flex;
   flex-wrap: wrap;
