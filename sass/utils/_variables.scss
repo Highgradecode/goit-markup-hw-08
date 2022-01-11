@@ -39,6 +39,13 @@ img {
     height: auto;
 }
 
+body {
+    background-color: $main-background-color;
+    color: $first-text-color;
+                                       
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     width: 100%;
     padding-left: 15px;
@@ -71,13 +78,6 @@ img {
         padding-bottom: 94px;
         margin-bottom: 0px;
     }
-}
- 
-body {
-    background-color: $main-background-color;
-    color: $first-text-color;
-                                       
-    font-family: 'Roboto', sans-serif;
 }
  
 .list {
