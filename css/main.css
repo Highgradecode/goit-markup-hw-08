@@ -248,6 +248,12 @@ body {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .contact-list {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .contact-list {
     display: flex;
@@ -302,6 +308,37 @@ body {
 
 .contact-list__icon:focus {
   fill: currentColor;
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-list-tablet {
+    display: none;
+  }
+}
+
+.contact-list-tablet__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contact-list-tablet__link {
+  color: #757575;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.1px;
+  letter-spacing: 0.02em;
+  transition-property: #2196F3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-list-tablet__link:hover {
+  color: #2196F3;
+}
+
+.contact-list-tablet__link:focus {
+  color: #2196F3;
 }
 
 .open-menu-btn {
