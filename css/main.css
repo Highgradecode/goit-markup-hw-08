@@ -1080,6 +1080,7 @@ body {
   background-color: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -1087,6 +1088,13 @@ body {
   min-width: 200px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .footer-container__logo-word1 {
@@ -1309,7 +1317,8 @@ body {
 
 @media screen and (min-width: 1200px) {
   .online-form__input {
-    margin-bottom: 0;
+    margin-bottom: 0px;
+    margin-right: 12px;
     width: 358px;
   }
 }
@@ -1338,6 +1347,7 @@ body {
 @media screen and (min-width: 1200px) {
   .online-form__button {
     align-self: flex-end;
+    margin-top: 2px;
   }
 }
 
