@@ -389,10 +389,6 @@ body {
   padding-right: 15px;
 }
 
-.mob-menu__container {
-  width: 96%;
-}
-
 .close-menu-btn {
   display: block;
   margin-left: auto;
